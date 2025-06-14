@@ -25,8 +25,28 @@ const HomePage = () => {
             <Header />
             <div className="Imglb">
                 <div className="image-text-container">
-                    <div className="Kar">
-                        <img src="./src/assets/MaingridFotos/Осень.jpg" alt="Осень" />
+                    <div className="Kar-big">
+                        <img src="./src/assets/MaingridFotos/Огне.jpg" alt="Осень" />
+                        <div className="text-overlay">Осенняя осень</div>
+                    </div>
+                    <div>
+                        <img src="./src/assets/MaingridFotos/суш.jpg" alt="Осень" />
+                        <div className="text-overlay">Осенняя осень</div>
+                    </div>
+                    <div>
+                        <img src="./src/assets/MaingridFotos/ТМбар.jpg" alt="Осень" />
+                        <div className="text-overlay">Осенняя осень</div>
+                    </div>
+                    <div className='snowman'>
+                        <img src="./src/assets/MaingridFotos/Пон.jpg" alt="Осень" />
+                        <div className="text-overlay">Осенняя осень</div>
+                    </div>
+                    <div>
+                        <img src="./src/assets/MaingridFotos/Молекулярная.jpg" alt="Осень" />
+                        <div className="text-overlay">Осенняя осень</div>
+                    </div>
+                    <div>
+                        <img src="./src/assets/MaingridFotos/Огне.jpg" alt="Осень" />
                         <div className="text-overlay">Осенняя осень</div>
                     </div>
                     {/* Остальные изображения по аналогии */}
