@@ -51,22 +51,27 @@ img {
 
 
 .image-text-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1.5fr 1.5fr 2fr; /* 5 колонок: первая в 2 раза шире */
-    grid-auto-rows: minmax(300px, auto); /* Автоматическая высота строк */
-    gap: 15px;
-    grid-auto-flow:dense;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr 1.5fr 2fr;
+  /* 5 колонок: первая в 2 раза шире */
+  grid-auto-rows: minmax(300px, auto);
+  /* Автоматическая высота строк */
+  gap: 15px;
+  grid-auto-flow: dense;
 }
-    
+
 .Kar-big {
-    grid-column: span 2 / span 2;
-    grid-row: span 2;
+  grid-column: span 2 / span 2;
+  grid-row: span 2;
 }
+
 .snowman {
-    grid-column: 5; /* Позиционируем в 5-й колонке */
-    grid-row: span 2; /* В первой строке */
+  grid-column: 5;
+  /* Позиционируем в 5-й колонке */
+  grid-row: span 2;
+  /* В первой строке */
 }
-        
+
 /* 
 .text-overlay {
   position: absolute;
@@ -207,6 +212,49 @@ img {
   * Карточки
   *
 */
+
+/* .restaurant-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-track {
+  display: flex;
+  gap: 16px;
+}
+
+.restaurant-card {
+  flex: 0 0 calc(25% - 16px);
+   25% ширины контейнера 
+  min-width: 280px;
+   Минимальная ширина карточки 
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.prev {
+  left: 16px;
+}
+
+.next {
+  right: 16px;
+}
+ */
 .heading {
   display: flex;
   position: relative;
@@ -215,7 +263,7 @@ img {
   width: 530px;
   height: 30px;
   top: 24vh;
-  left: 1vw;
+  left: 6.5vw;
 }
 
 .title {
@@ -245,6 +293,7 @@ img {
 .season-cards {
   position: relative;
   top: 25vh;
+  left: 5.5vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -268,7 +317,7 @@ img {
   overflow: visible;
   background: white;
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-image {
@@ -340,7 +389,7 @@ img {
   position: relative;
   margin: 10px;
   width: 80px;
-  height: 30px;
+  height: 25px;
   color: white;
   border-radius: 25px;
   background: rgba(17, 17, 17, 0.651);
@@ -370,7 +419,7 @@ img {
   display: flex;
   position: relative;
   margin-right: 1.2vw;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .Name:hover {
@@ -416,7 +465,7 @@ img {
   position: relative;
   width: 94vw;
   top: 28vh;
-  left: 9vh;
+  left: 13vh;
 }
 
 .selection-imgs {
