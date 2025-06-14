@@ -1,6 +1,6 @@
 import '../index.css';
 
-export default function Card({ onBookClick, restaurantName = "BBQ House" }) {
+export default function Card({ onBookClick, restaurantName = "BBQ House", imageUrl }) {
     return (
         <div className='main-card'>
             <div className='card'>
@@ -14,7 +14,9 @@ export default function Card({ onBookClick, restaurantName = "BBQ House" }) {
                         </svg>
                     </div>
                 </div>
-                <div className='card-image'></div>
+                <div className='card-image'>
+                    <img src={imageUrl}></img>
+                </div>
                 <div className='tags'>
                     <div className='tag-text'>
                         <p><span style={{ color: 'green' }}>#</span>Мясо</p>

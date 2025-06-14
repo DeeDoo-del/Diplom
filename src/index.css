@@ -214,8 +214,8 @@ img {
   align-items: end;
   width: 530px;
   height: 30px;
-  top: 3vh;
-  left: 9vh;
+  top: 24vh;
+  left: 1vw;
 }
 
 .title {
@@ -244,7 +244,7 @@ img {
 
 .season-cards {
   position: relative;
-  top: 10vh;
+  top: 25vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -415,7 +415,7 @@ img {
 .compilation {
   position: relative;
   width: 94vw;
-  top: 9vh;
+  top: 28vh;
   left: 9vh;
 }
 

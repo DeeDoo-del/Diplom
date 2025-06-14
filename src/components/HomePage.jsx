@@ -61,10 +61,10 @@ const HomePage = () => {
                 <svg className="slide-btn" width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M8 1L1.70711 7.29289C1.31658 7.68342 1.31658 8.31658 1.70711 8.70711L8 15" stroke="black" strokeWidth="2" strokeLinecap="round" />
                 </svg>
-                <Card onBookClick={handleBookClick} restaurantName="BBQ House" />
-                <Card onBookClick={handleBookClick} restaurantName="Итальянский ресторан" />
-                <Card onBookClick={handleBookClick} restaurantName="Японский ресторан" />
-                <Card onBookClick={handleBookClick} restaurantName="Грузинский ресторан" />
+                <Card onBookClick={handleBookClick} restaurantName="BBQ House" imageUrl="./src/assets/MaingridFotos/суш.jpg" />
+                <Card onBookClick={handleBookClick} restaurantName="Итальянский ресторан" imageUrl="./src/assets/MaingridFotos/суш.jpg" />
+                <Card onBookClick={handleBookClick} restaurantName="Японский ресторан" imageUrl="./src/assets/MaingridFotos/суш.jpg" />
+                <Card onBookClick={handleBookClick} restaurantName="Грузинский ресторан" imageUrl="./src/assets/MaingridFotos/суш.jpg" />
                 <svg className="slide-btn" width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 15L7.29289 8.70711C7.68342 8.31658 7.68342 7.68342 7.29289 7.29289L1 0.999999" stroke="black" strokeWidth="2" strokeLinecap="round" />
                 </svg>
